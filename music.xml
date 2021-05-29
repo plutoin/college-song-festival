@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="music.xsl"?>
+<music xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="music.xsd">
+  <대학가요제>
+    <host>(구) MBC 예능 본부 (현) MBC 플러스</host>
+    <channel>MBC TV</channel>
+    <term>1977년 ~ 2012년, 2019년~</term>
+    <description>명랑한 대학 풍토 조성과 건전 가요 발굴을 목적으로 시작하였으며, 참가한 대학생들은 창작곡으로 노래 실력을 겨룬다.</description>
+  </대학가요제>
+  <track1>
+    <image file="1980.jpg" w="200" h="200" />
+    <title>연극이 끝난 후</title>
+    <artist>샤프</artist>
+    <photo file="Sharp.jpg" w="200" h="200" />
+    <date>1980</date>
+    <rank>은상</rank>
+  </track1>
+  <track1>
+    <image file="1988.jpg" w="200" h="200" />
+    <title>그대에게</title>
+    <artist>무한궤도</artist>
+    <photo file="ShinHaeChul.jpg" w="200" h="200" />
+    <date>1988</date>
+    <rank>대상</rank>
+  </track1>
+  <track1>
+  <image file="1993.jpg" w="200" h="200" />
+    <title>꿈속에서</title>
+    <artist>전람회</artist>
+    <photo file="Exhibition.jpg" w="200" h="200" />
+    <date>1993</date>
+    <rank>대상/특별상</rank>
+  </track1>
+  <track1>
+    <image file="2005.jpg" w="200" h="200" />
+    <title>잘 부탁드립니다</title>
+    <artist>Ex</artist>
+    <photo file="EX.jpg" w="200" h="200" />
+    <date>2005</date>
+    <rank>대상</rank>
+  </track1>
+  <강변가요제>
+    <host>MBC 예능 본부</host>
+    <channel>MBC TV, MBC FM</channel>
+    <term>1979년 ~ 2001년</term>
+    <description>매년 7월과 8월 사이에 청평유원지, 남이섬, 춘천시 등지에서 개최된 대학생 중심의 가요 경연 대회</description>
+  </강변가요제>
+  <track2>
+    <image file="1984.jpg" w="200" h="200" />
+    <title>J에게</title>
+    <artist>4막5장(이선희, 임성균)</artist>
+    <photo file="4_5.jpg" w="200" h="200" />
+    <date>1984</date>
+    <rank>대상</rank>
+  </track2>
+  <track2>
+    <image file="1988-1.jpg" w="200" h="200" />
+    <title>담다디</title>
+    <artist>이상은</artist>
+    <photo file="LeeSangEun.jpg" w="200" h="200" />
+    <date>1988</date>
+    <rank>대상</rank>
+  </track2>
+  <track2>
+    <image file="1989.jpg" w="200" h="200" />
+    <title>귀로</title>
+    <artist>박선주</artist>
+    <photo file="ParkSunJoo.jpg" w="200" h="200" />
+    <date>1989</date>
+    <rank>은상</rank>
+  </track2>
+  <track2>
+    <image file="1999.jpg" w="200" h="200" />
+    <title>내 안에 넌...</title>
+    <artist>장윤정</artist>
+    <photo file="JangYoonJung.jpg" w="200" h="200" />
+    <date>1999</date>
+    <rank>대상</rank>
+  </track2>
+</music>

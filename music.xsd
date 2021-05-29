@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="music">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="대학가요제"/>
+        <xs:element ref="track1" maxOccurs="unbounded"/>
+        <xs:element ref="강변가요제"/>
+        <xs:element ref="track2" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="대학가요제">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="host" type="xs:string"/>
+        <xs:element name="channel" type="xs:string"/>
+        <xs:element name="term" type="xs:string"/>
+        <xs:element name="description" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="track1">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="image"/>
+        <xs:element name="title" type="xs:string"/>
+        <xs:element name="artist" type="xs:string"/>
+        <xs:element ref="photo"/>
+        <xs:element name="date" type="xs:string"/>
+        <xs:element name="rank" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="image">
+    <xs:complexType>
+      <xs:attribute name="file" type="xs:string" use="required"/>
+      <xs:attribute name="h" type="xs:string" use="required"/>
+      <xs:attribute name="w" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="photo">
+    <xs:complexType>
+      <xs:attribute name="file" type="xs:string" use="required"/>
+      <xs:attribute name="h" type="xs:string" use="required"/>
+      <xs:attribute name="w" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="강변가요제">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="host" type="xs:string"/>
+        <xs:element name="channel" type="xs:string"/>
+        <xs:element name="term" type="xs:string"/>
+        <xs:element name="description" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="track2">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="image"/>
+        <xs:element name="title" type="xs:string"/>
+        <xs:element name="artist" type="xs:string"/>
+        <xs:element ref="photo"/>
+        <xs:element name="date" type="xs:string"/>
+        <xs:element name="rank" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
